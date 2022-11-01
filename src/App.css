@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&family=Roboto:wght@100;500&display=swap');
+
+:root
+{
+  --yellow: #F5C32C;
+  --black : #7e8086;
+    --blue : #0961b3;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(8, 33, 175, 0.788);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+*{
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+canvas{
+  padding: 0%;
+  margin: 0%;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  
+  z-index: 0;
+  overflow: visible;
+  position:absolute;
+}
+.appMain{
+  z-index: -2;
+ background-color: black;
+}
+.App{
+  
+    padding: 0.5rem 3.5rem;
+    overflow: visible;
+    color: var(--black);    
+}
+
+.button {
+    background: linear-gradient(180deg, #045f8a 26.71%, #3543c0 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(13, 123, 156, 0.42);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+  }
+  
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+  }
+  @media screen and (max-width: 480px) {
+    .App {
+      padding: 0.5rem 1rem;
+
+    }
+    .appMain{
+      max-width:300px ;
+    }
+  }
+
+  
+
+  
